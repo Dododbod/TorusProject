@@ -6,6 +6,7 @@
 
 body,html{
     overflow-x: hidden;
+    text-align: center;
 }
 
 .webgl{
@@ -38,9 +39,12 @@ nav ul{
 .title{
     color: white;
     z-index: 2;
-    position: absolute;
+    position: relative;
     font-size: 3rem;
-    left: 50%;
-    top: 5%;
+    text-align: center;
 }
 
+h1
+{
+    margin: 0;
+}

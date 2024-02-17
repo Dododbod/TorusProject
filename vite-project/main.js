@@ -22,13 +22,13 @@ const sizes = {
 
 //Lighting
 const light = new THREE.PointLight(0xffffff, 1, 100)
-light.position.set(0, 30, 20)
-light.intensity = 1.25
+light.position.set(0, 30, 40)
+light.intensity = 1.75
 scene.add(light)
 
 //Camera
-const camera = new THREE.PerspectiveCamera(45, sizes.width / sizes.height, 0.1, 100)
-camera.position.z = 45
+const camera = new THREE.PerspectiveCamera(60, sizes.width / sizes.height, 0.1, 100)
+camera.position.z = 100
 scene.add(camera)
 
 //Renderer
